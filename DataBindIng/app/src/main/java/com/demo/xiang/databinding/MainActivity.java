@@ -40,6 +40,12 @@ public class MainActivity extends AppCompatActivity implements MainAdapter.itemC
             case 0:
                 startActivity(new Intent(this, TestJavaBeanActivity.class));
                 break;
+            case 1:
+                startActivity(new Intent(this, TestClickListner.class));
+                break;
+            case 2:
+                startActivity(new Intent(this, BindFragmentActivity.class));
+                break;
         }
     }
 }

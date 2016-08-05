@@ -17,6 +17,10 @@
         </activity>
         <activity android:name=".TestJavaBeanActivity">
         </activity>
+        <activity android:name=".TestClickListner">
+        </activity>
+        <activity android:name=".BindFragmentActivity">
+        </activity>
     </application>
 
 </manifest>

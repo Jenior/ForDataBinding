@@ -14,8 +14,7 @@ public class TestJavaBeanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         activityTestJavaBeanBinding = DataBindingUtil.setContentView(this, R.layout.activity_test_java_bean);
-        String titles[] = getResources().getStringArray(R.array.action);
-        setTitle(titles[0]);
+        setTitle(getResources().getStringArray(R.array.action)[0]);
         init();
     }
 

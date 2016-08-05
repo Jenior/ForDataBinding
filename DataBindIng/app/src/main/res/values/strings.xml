@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">DataBindIng</string>
     <array name="action">
-        <item name="part_1">databindingForJavaBean</item>
+        <item name="part_1">bindJavaBean</item>
+        <item name="part_2">bindClickListener</item>
+        <item name="part_3">FragmentUse</item>
     </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

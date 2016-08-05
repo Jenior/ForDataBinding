@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+      >
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.demo.xiang.databinding.model.UserBean"/>
+
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="展示用户信息"
+            android:padding="10dp"
+            android:textSize="@dimen/text_size_normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.name}"
+            android:padding="10dp"
+            android:textSize="@dimen/text_size_normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.nickName}"
+            android:padding="10dp"
+            android:textSize="@dimen/text_size_normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{user.age}"
+            android:padding="10dp"
+            android:textSize="@dimen/text_size_normal"
+            />
+    </LinearLayout>
+</layout>
